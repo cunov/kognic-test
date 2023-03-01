@@ -9,7 +9,7 @@ To install the package run `pip install annotation_converter/` from the main dir
 
 The only thing that is designed to be used by the user is the `convert()` function. You can simply import it like `from annotation_converter import convert`.
 
-The default parameters are set, but you can update things like the host, port, and template file if you want to run it from somewhere else. Simply run `annotation_converter.module.host = HOST`, for example.
+The default parameters are set, but you can update things like the host, port, and template file if you want to run it from somewhere else or run the flask app with a different host/port. Simply run `annotation_converter.module.host = HOST`, for example.
 
 ## Starting the service
 Start the service by navigating to `application/` and executing `flask run`. You may need to set the environment variable `FLASK_APP=app.py`.
