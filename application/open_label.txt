@@ -1,0 +1,12 @@
+{
+    "data": {
+        "openlabel": {
+            "objects": {},
+            "frames": {
+                "0": {
+                    "objects": {}
+                }
+            }
+        }
+    }
+}
