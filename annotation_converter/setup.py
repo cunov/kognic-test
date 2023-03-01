@@ -24,8 +24,5 @@ setup(
     packages=find_packages(),
     install_requires=[
         'requests', 'flask'
-    ],
-    # package_dir={'': 'annotation_converter'},
-    include_package_data=True,
-    package_data={'': ['*.txt']}
+    ]
 )
