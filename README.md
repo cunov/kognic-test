@@ -3,6 +3,8 @@
 Tested using Python 3.11
 
 ## Package usage
+First, create and activate a virtual environment.
+
 To install the package run `pip install annotation_converter/` from the main directory.
 
 The only thing that is designed to be used by the user is the `convert()` function.
